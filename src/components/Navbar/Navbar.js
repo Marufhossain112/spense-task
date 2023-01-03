@@ -26,7 +26,7 @@ const Navbar = () => {
         <a className="btn btn-ghost normal-case text-xl logo">Sample Logo</a>
       </div>
       <div className="navbar-center hidden lg:flex"></div>
-      <div className="navbar-end">
+      <div className="navbar-end mr-5">
         <p>Need help ? Call 01673543045</p>
       </div>
     </div>

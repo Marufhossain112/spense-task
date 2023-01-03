@@ -1,0 +1,19 @@
+.banner {
+  background: url("../../images/banner.jpeg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
+  position: relative;
+  isolation: isolate;
+}
+.banner::after {
+  content: "";
+  background-color: rgb(34, 31, 31);
+  inset: 0;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.5;
+}
