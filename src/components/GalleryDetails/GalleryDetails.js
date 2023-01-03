@@ -62,7 +62,7 @@ const GalleryDetails = () => {
         </article>
       </div>
 
-      <hr className=" " />
+      <hr className="hr-style" />
     </div>
   );
 };
