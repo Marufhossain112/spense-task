@@ -17,3 +17,14 @@
   position: absolute;
   opacity: 0.5;
 }
+.available {
+  right: -174px;
+  padding: 18px 16px;
+  bottom: 3px;
+  border-radius: 6px;
+  font-weight: 900;
+}
+.dropdown-bg{
+    background: white;
+    color: black;
+}
